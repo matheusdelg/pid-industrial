@@ -1,4 +1,4 @@
-from control_util import Plotter, Controller, Analysis;
+from control_utils import Plotter, Controller, Analysis;
 import control as ctrl;
 
 plot_specs = {'title' : 'Resposta ao degrau unitario',
