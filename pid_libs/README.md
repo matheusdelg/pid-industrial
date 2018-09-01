@@ -6,7 +6,7 @@ Os módulos presentes são explicitados a seguir, explicando cada funcionalidade
 Alguns dos módulos presentes são configurados por _specs_, [dicionários](https://www.w3schools.com/python/python_dictionaries.asp) com chaves pré-definidas a serem lidas pelo construtor da classe. Os módulos __Controller__ e __Plotter__ são configurados por _specs_.
 
 ### Controller
-Classe responsável por gerar controladores PID na forma de função de transferência <img src="https://latex.codecogs.com/gif.latex?C(s)=K_p+\frac{K_i}{s}+T_ds" /> . Possui as seguintes especificações:
+Classe responsável por gerar controladores PID na forma de função de transferência <img src="https://latex.codecogs.com/gif.latex?C(s)=K_p+\frac{K_i}{s}+K_ds" /> . Possui as seguintes especificações:
 * Kc : Constante proporcional do controlador
 * Ti : Constante de tempo integral para <img src="https://latex.codecogs.com/gif.latex?K_i=K_p/T_i"/>
 * Td : Valor <img src="https://latex.codecogs.com/gif.latex?T_d"/> em <img src="https://latex.codecogs.com/gif.latex?K_d=K_pT_d"/>
